@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-01T21:34:10 IST" name="DemoQA Suite" finished-at="2026-10-01T21:34:47 IST" duration-ms="37220">
+    <groups>
+    </groups>
+    <test started-at="2026-10-01T21:34:10 IST" name="Home Page Tests" finished-at="2026-10-01T21:34:47 IST" duration-ms="37220">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@5bda8e08]" started-at="2026-10-01T21:34:10 IST" name="setUp" finished-at="2026-10-01T21:34:20 IST" duration-ms="9581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyElementsCardDisplayed()[pri:0, instance:tests.HomePageTest@5bda8e08]" started-at="2026-10-01T21:34:20 IST" name="verifyElementsCardDisplayed" finished-at="2026-10-01T21:34:20 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsCardDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@5bda8e08]" started-at="2026-10-01T21:34:20 IST" name="tearDown" finished-at="2026-10-01T21:34:20 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@5bda8e08]" started-at="2026-10-01T21:34:20 IST" name="setUp" finished-at="2026-10-01T21:34:26 IST" duration-ms="5526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNavigationToElements()[pri:0, instance:tests.HomePageTest@5bda8e08]" started-at="2026-10-01T21:34:26 IST" name="verifyNavigationToElements" finished-at="2026-10-01T21:34:27 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@5bda8e08]" started-at="2026-10-01T21:34:27 IST" name="tearDown" finished-at="2026-10-01T21:34:27 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.TextBoxTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TextBoxTest@131ef10]" started-at="2026-10-01T21:34:27 IST" name="setUp" finished-at="2026-10-01T21:34:33 IST" duration-ms="5238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTextBoxFormSubmission()[pri:0, instance:tests.TextBoxTest@131ef10]" started-at="2026-10-01T21:34:33 IST" name="verifyTextBoxFormSubmission" finished-at="2026-10-01T21:34:35 IST" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextBoxFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TextBoxTest@131ef10]" started-at="2026-10-01T21:34:35 IST" name="tearDown" finished-at="2026-10-01T21:34:35 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TextBoxTest -->
+      <class name="tests.RadioButtonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RadioButtonTest@55b0dcab]" started-at="2026-10-01T21:34:35 IST" name="setUp" finished-at="2026-10-01T21:34:41 IST" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyYesRadioButton()[pri:0, instance:tests.RadioButtonTest@55b0dcab]" started-at="2026-10-01T21:34:41 IST" name="verifyYesRadioButton" finished-at="2026-10-01T21:34:47 IST" duration-ms="6355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYesRadioButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RadioButtonTest@55b0dcab]" started-at="2026-10-01T21:34:47 IST" name="tearDown" finished-at="2026-10-01T21:34:47 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RadioButtonTest -->
+    </test> <!-- Home Page Tests -->
+  </suite> <!-- DemoQA Suite -->
+</testng-results>

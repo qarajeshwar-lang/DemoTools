@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoQA Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Home Page Tests(failed)">
+    <classes>
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyNavigationToElements"/>
+          <include name="verifyElementsCardDisplayed"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.RadioButtonTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyYesRadioButton"/>
+        </methods>
+      </class> <!-- tests.RadioButtonTest -->
+      <class name="tests.TextBoxTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTextBoxFormSubmission"/>
+        </methods>
+      </class> <!-- tests.TextBoxTest -->
+    </classes>
+  </test> <!-- Home Page Tests(failed) -->
+</suite> <!-- Failed suite [DemoQA Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Elements]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Elements(failed)">
+    <parameter name="CurrentAddress" value="Aranyeshwar"/>
+    <parameter name="Email" value="fgitfxan@sharklasers.com"/>
+    <parameter name="PermanentAddress" value="Pune"/>
+    <parameter name="Fullname" value="Raj Kamble"/>
+    <classes>
+      <class name="Elements.TextBox">
+        <methods>
+          <include name="enterText" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Elements.TextBox -->
+    </classes>
+  </test> <!-- Elements(failed) -->
+</suite> <!-- Failed suite [Elements] -->
