@@ -15,7 +15,7 @@ public class TextBoxTest extends BaseTest {
         ElementsPage elementsPage = homePage.clickElements();
         TextBoxPage textBoxPage = elementsPage.clickTextBox();
 
-        textBoxPage.enterFullName("Rajeshwar Kamble");
+        textBoxPage.enterFullName("Rajeshwar Kamble2");
         textBoxPage.enterEmail("john.smith@example.com");
         textBoxPage.enterCurrentAddress("Pune, Maharashtra");
         textBoxPage.enterPermanentAddress("Mumbai, Maharashtra");
