@@ -9,8 +9,9 @@ import pages.HomePage;
 public class HomePageTest extends BaseTest {
 
     @Test
-    public void verifyElementsCardDisplayed() {
+    public void verifyElementsCardDisplayed() throws InterruptedException {
         HomePage homePage = new HomePage(driver);
+        Thread.sleep(2000); 
         Assert.assertTrue(homePage.isElementsCardDisplayed(), "Elements card is not displayed.");
     }
 
